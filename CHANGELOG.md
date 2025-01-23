@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.160.2](https://github.com/Flagsmith/flagsmith/compare/v2.160.1...v2.160.2) (2025-01-23)
+
+
+### Bug Fixes
+
+* cast boolean on length environment ([#5017](https://github.com/Flagsmith/flagsmith/issues/5017)) ([c0e8b81](https://github.com/Flagsmith/flagsmith/commit/c0e8b8106471748f557187d006602bae01b9ca58))
+* Disable invite button when email config is not set ([#5022](https://github.com/Flagsmith/flagsmith/issues/5022)) ([2faca89](https://github.com/Flagsmith/flagsmith/commit/2faca89f180c36cb687b5af8ce1e21fa944e376d))
+* Raise if `environment_feature_version` is `None` ([#5028](https://github.com/Flagsmith/flagsmith/issues/5028)) ([edd7141](https://github.com/Flagsmith/flagsmith/commit/edd71412200333ed2f0bb268a14f9045b2372f28))
+
 ## [2.160.1](https://github.com/Flagsmith/flagsmith/compare/v2.160.0...v2.160.1) (2025-01-22)
 
 
