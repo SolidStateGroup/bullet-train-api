@@ -1439,8 +1439,8 @@ flagsmith-flag-engine = "*"
 [package.source]
 type = "git"
 url = "https://github.com/Flagsmith/flagsmith-common"
-reference = "v1.4.2"
-resolved_reference = "5ac44b7c8dce96c043c9a0c38c7cbde04886fcf9"
+reference = "feat/add_version_of_to_rules_and_conditions"
+resolved_reference = "18ca20eac4fc192b1de0a98d642b21b9f1bc927e"
 
 [[package]]
 name = "flagsmith-flag-engine"
@@ -4328,14 +4328,14 @@ develop = false
 [package.dependencies]
 djangorestframework = "*"
 djangorestframework-recursive = "*"
-flagsmith-common = {git = "https://github.com/Flagsmith/flagsmith-common", tag = "v1.4.2"}
+flagsmith-common = {git = "https://github.com/Flagsmith/flagsmith-common", branch = "feat/add_version_of_to_rules_and_conditions"}
 flagsmith-flag-engine = "*"
 
 [package.source]
 type = "git"
 url = "https://github.com/flagsmith/flagsmith-workflows"
-reference = "v2.7.6"
-resolved_reference = "0d843c8879bb86ac4b726b1cb0472a5cf3cc34d4"
+reference = "feat/add_matches_to_workflows"
+resolved_reference = "3a9a9d9d4ffa9270eb0769f96a81c5c4df0ba0bf"
 
 [[package]]
 name = "wrapt"
@@ -4457,4 +4457,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11, <3.13"
-content-hash = "1d3c289404e691bbe2c044d0794e81a46fc982104960f1edcfd8a07c2100c49e"
+content-hash = "dbe06e66324583b141e39cecaa0d22ca96c5602ad6bd5398a0344d30849b2058"
